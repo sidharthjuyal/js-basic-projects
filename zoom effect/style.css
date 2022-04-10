@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:0;
+    min-height:100vh;
+    font-family:'poppins',sans-serif;
+    background-image:linear-gradient(rebeccapurple,white);
+}
+
+#container{
+    height:500px;
+    width:500px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+img{
+    width:500px;
+    height:500px;
+    object-fit: cover;
+    transform-origin: center center;
+}
